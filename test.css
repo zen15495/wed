@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.welcome{
+    background-color: rgb(230, 230, 30);
+    flex: 70%;
+    padding: 60px;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.side{
+    flex: 30%;
+    background-color: rgb(147, 170, 190);
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+footer {
+    background-color: rgb(0, 255, 21);
+    padding: 20px;
+
+}
+.header{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+
+}
+.page{
+    background-color: antiquewhite;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
